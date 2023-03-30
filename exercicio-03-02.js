@@ -16,7 +16,15 @@
 
 // ############### EXERCICIO 2 ############################
 
-for (let i = 0; i < numbers.length; i += 1){
+// for (let i = 0; i < numbers.length; i += 1){
+//     soma += numbers [i];
+// }
+// console.log (soma);
+
+// ############ EXERCICIO 3 #################
+
+for (let i =0; i< numbers.length; i +=1){
     soma += numbers [i];
 }
-console.log (soma);
+
+console.log (soma/numbers.length);
