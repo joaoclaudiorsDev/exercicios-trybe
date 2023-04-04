@@ -23,4 +23,20 @@ const soma = function (num1, num2) {
 
 const sub = (num1, num2) => num1 - num2;
 
-console.log (sub(5,3));
+//  *outros exemplo*
+
+// function contaPalavras (frase){
+//     return frase.split (' ').lenght;
+// }
+
+const contaPalavras = frase => frase.split (' ').lenght;
+
+//  *outro exemplo*
+
+const objetoPessoa = (nome, idade) => ({nome: nome, idade: idade});
+
+console.log (objetoPessoa('João', 25));
+
+// ########## OPERADOR TERNARIO ###########
+
+
