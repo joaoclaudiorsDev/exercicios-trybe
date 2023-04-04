@@ -35,8 +35,23 @@ const contaPalavras = frase => frase.split (' ').lenght;
 
 const objetoPessoa = (nome, idade) => ({nome: nome, idade: idade});
 
-console.log (objetoPessoa('João', 25));
+
 
 // ########## OPERADOR TERNARIO ###########
 
+// ------ verficador de idade normal ------
+let idade = 18;
+let habilitacao = ''
 
+if (idade < 18){
+    habilitacao = 'proibido, menó'
+} else { 
+    habilitacao = ' vai na sombra'
+}
+
+
+// ------------ verificador de idade refatorado -----------
+
+let verificaIdade = (idade < 18) ? ('Tá proibido, menó') : ('Vai na fé');
+
+console.log (verificaIdade);
